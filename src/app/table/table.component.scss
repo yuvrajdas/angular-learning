@@ -1,0 +1,96 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+
+.t-wrapper{
+    background-color: #100725;
+    height: 100vh;
+ 
+    
+    // table{
+    //   color: white !important;
+    //   margin: auto;
+    //   position: relative;
+    //   top:50px;
+    //   height: 500px; 
+    //   width: 800px;
+    //   background: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.004) 57.81%);
+    //   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.08);
+    //   border-radius: 8px;
+    // }
+    .main-item {
+      // height: 380px;
+      // width: 250px;
+      // left: 100px;
+      // top:50px;
+
+      .card{
+          // height: 380px;
+          // width: 250px;
+          // left: 100px;
+          // position: absolute;
+          // top:50px;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.004) 57.81%);
+          box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.08);
+          border-radius: 8px;
+        hr{
+          border-bottom: 1px solid rgb(104, 102, 97);
+        }
+        .ratings{
+          height: 7%;
+          width: 7%;
+        }
+      }
+    }
+   
+}
+
+.price{
+  display: flex;
+  align-items: baseline;
+}
+.card-image{
+  display: flex !important;
+  justify-content: center !important;
+  // height:60% !important;
+  width: 100% !important;
+  img{
+    padding: 10px 0px;
+  }
+  
+}
+
+.add-cart{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.004) 57.81%);
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.08);
+  // border-radius: 8px;
+  width: 100%; border: none;
+  height: 35px;
+}
+  
+  
+ 
+  
+  @keyframes placeHolderShimmer {
+    0% {
+      background-position: -800px 0
+    }
+    100% {
+      background-position: 800px 0
+    }
+  }
+  
+  .animated-background {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    // background-color: #8269bd;
+    background: linear-gradient(to right, #7964a7 8%, #655097 18%, #8a8499 33%);
+    background-size: 800px 200px;
+  }
+  
+ 
